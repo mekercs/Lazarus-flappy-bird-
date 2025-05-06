@@ -1,0 +1,39 @@
+object Form4: TForm4
+  Left = 577
+  Height = 64
+  Top = 277
+  Width = 320
+  Caption = 'Mentés'
+  ClientHeight = 64
+  ClientWidth = 320
+  Constraints.MaxHeight = 64
+  Constraints.MaxWidth = 320
+  Constraints.MinHeight = 64
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '3.8.0.0'
+  object Edit1: TEdit
+    Left = 16
+    Height = 23
+    Top = 32
+    Width = 168
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 200
+    Height = 25
+    Top = 30
+    Width = 75
+    Caption = 'Mentés'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 15
+    Top = 7
+    Width = 136
+    Caption = 'Add meg a játékos neved:'
+  end
+end

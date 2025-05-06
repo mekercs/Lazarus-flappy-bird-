@@ -1,0 +1,50 @@
+object Form1: TForm1
+  Left = 731
+  Height = 511
+  Top = 155
+  Width = 490
+  Caption = 'Menü'
+  ClientHeight = 511
+  ClientWidth = 490
+  Color = clActiveCaption
+  Constraints.MaxHeight = 511
+  Constraints.MaxWidth = 490
+  Constraints.MinHeight = 511
+  Constraints.MinWidth = 490
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '3.2.0.0'
+  object start: TButton
+    Left = 48
+    Height = 81
+    Top = 183
+    Width = 155
+    Caption = 'Start'
+    TabOrder = 0
+    OnClick = startClick
+  end
+  object toplista: TButton
+    Left = 296
+    Height = 82
+    Top = 183
+    Width = 155
+    Caption = 'toplista'
+    TabOrder = 1
+    OnClick = toplistaClick
+  end
+  object kilepes: TButton
+    Left = 416
+    Height = 25
+    Top = 486
+    Width = 75
+    Caption = 'exit'
+    TabOrder = 2
+    OnClick = kilepesClick
+  end
+  object Image1: TImage
+    Left = 0
+    Height = 178
+    Top = 0
+    Width = 490
+  end
+end

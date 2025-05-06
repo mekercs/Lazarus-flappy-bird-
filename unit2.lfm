@@ -1,0 +1,53 @@
+object Form2: TForm2
+  Left = 722
+  Height = 518
+  Top = 319
+  Width = 403
+  Caption = 'Beállítások'
+  ClientHeight = 518
+  ClientWidth = 403
+  Color = clActiveCaption
+  Constraints.MaxHeight = 518
+  Constraints.MaxWidth = 403
+  Constraints.MinHeight = 518
+  Constraints.MinWidth = 403
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '3.2.0.0'
+  object ScrollBar1: TScrollBar
+    Left = 0
+    Height = 17
+    Top = 48
+    Width = 400
+    Max = 6
+    Min = 1
+    PageSize = 0
+    Position = 1
+    TabOrder = 0
+    OnChange = ScrollBar1Change
+  end
+  object Label1: TLabel
+    Left = 176
+    Height = 15
+    Top = 16
+    Width = 34
+    Caption = 'Label1'
+  end
+  object Button1: TButton
+    Left = 160
+    Height = 25
+    Top = 480
+    Width = 75
+    Caption = 'Indítás'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Image1: TImage
+    Left = 16
+    Height = 152
+    Top = 96
+    Width = 370
+    OnMouseDown = Image1MouseDown
+    OnMouseMove = Image1MouseMove
+  end
+end

@@ -1,0 +1,40 @@
+object Form3: TForm3
+  Left = 1386
+  Height = 900
+  Top = 213
+  Width = 1000
+  Caption = 'Game'
+  ClientHeight = 900
+  ClientWidth = 1000
+  Constraints.MaxHeight = 900
+  Constraints.MaxWidth = 1000
+  Constraints.MinHeight = 900
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  Position = poScreenCenter
+  LCLVersion = '3.8.0.0'
+  object Image1: TImage
+    Left = 0
+    Height = 900
+    Top = 0
+    Width = 1000
+  end
+  object Button1: TButton
+    Left = 400
+    Height = 137
+    Top = 344
+    Width = 187
+    Caption = 'START'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 16
+    OnTimer = Timer1Timer
+  end
+  object Timer2: TTimer
+    Left = 973
+  end
+end

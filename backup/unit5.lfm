@@ -1,0 +1,37 @@
+object Form5: TForm5
+  Left = 234
+  Height = 439
+  Top = 719
+  Width = 364
+  Caption = 'Form5'
+  ClientHeight = 439
+  ClientWidth = 364
+  Constraints.MaxHeight = 439
+  Constraints.MaxWidth = 364
+  Constraints.MinHeight = 439
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '3.8.0.0'
+  object Memo1: TMemo
+    Left = 0
+    Height = 384
+    Top = 0
+    Width = 368
+    Lines.Strings = (
+      'Memo1'
+    )
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 0
+    Height = 48
+    Top = 384
+    Width = 365
+    Caption = 'Vissza'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+end
